@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="logo">
+                <h3>Dashboard</h3>
+            </div>
+            <ul>
+                <li><img src="images/home.svg">Home</li>
+                <li><img src="images/card-account-details-outline.svg">Profile</li>
+                <li><img src="images/message-reply.svg">Messages</li>
+                <li><img src="images/clock-time-four.svg">History</li>
+                <li><img src="images/file-multiple.svg">Tasks</li>
+                <li><img src="images/account-group.svg">Communities</li>
+            </ul>
+            <ul>
+                <li><img src="images/cog.svg">Settings</li>
+                <li><img src="images/help-box.svg">Support</li>
+                <li><img src="images/shield-check.svg">Privacy</li>
+            </ul>
+        </div>
+        <div class="main">
+            <div class="header">
+                <div class="header-top">
+                    <div class="header-top-left">
+                        <img src="images/magnify.svg" alt="">
+                        <div class="search-box"></div>
+                    </div>
+                    <div class="header-top-right">
+                        <div>
+                            <img src="images/bell-ring-outline.svg" alt="">
+                        </div>
+                        <div>
+                            <div id="circle"></div>
+                        </div>
+                        <div>
+                            Morgan Oakley
+                        </div>
+                    </div>
+                </div>
+                <div class="header-bottom">
+                    <div class="header-bottom-left">
+                        <div class="icon-box">
+                            <div id="circle"></div>
+                        </div>
+                        <div class="greeting-box">
+                            <h5>Hi there,</h5>
+                        </div>
+                        <div class="username-box">
+                            <h3>Morgan Oakley (@morgan)</h3>
+                        </div>
+                    </div>
+                    <div class="header-bottom-right">
+                        <div class="button">New</div>
+                        <div class="button">Upload</div>
+                        <div class="button">Share</div>
+                    </div>
+                </div>
+            </div>
+            <div class="content-area">
+                <div class="projects-box">
+                    <h3>Your Projects</h3>
+                    <div class="projects-grid">
+                        <div class="projects-card">
+                            <h3>Super Cool Project</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <div class="card-icons">
+                                <img src="images/star-plus-outline.svg" alt="">
+                                <img src="images/eye-plus-outline.svg" alt="">
+                                <img src="images/source-fork.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="projects-card">
+                            <h3>Less Cool Project</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <div class="card-icons">
+                                <img src="images/star-plus-outline.svg" alt="">
+                                <img src="images/eye-plus-outline.svg" alt="">
+                                <img src="images/source-fork.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="projects-card">
+                            <h3>Impossible App</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <div class="card-icons">
+                                <img src="images/star-plus-outline.svg" alt="">
+                                <img src="images/eye-plus-outline.svg" alt="">
+                                <img src="images/source-fork.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="projects-card">
+                            <h3>Easy Peasy App</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <div class="card-icons">
+                                <img src="images/star-plus-outline.svg" alt="">
+                                <img src="images/eye-plus-outline.svg" alt="">
+                                <img src="images/source-fork.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="projects-card">
+                            <h3>Ad Blocker</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <div class="card-icons">
+                                <img src="images/star-plus-outline.svg" alt="">
+                                <img src="images/eye-plus-outline.svg" alt="">
+                                <img src="images/source-fork.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="projects-card">
+                            <h3>Money Maker</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <div class="card-icons">
+                                <img src="images/star-plus-outline.svg" alt="">
+                                <img src="images/eye-plus-outline.svg" alt="">
+                                <img src="images/source-fork.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-sidebar">
+                    <div class="announcements-box">
+                        <h3>Announcements</h3>
+                        <div class="announcements-card">
+                            <div class="announcements-section" id="top">
+                                <h5>Site Maintenance</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                            </div>
+                            <div class="announcements-section" id="middle">
+                                <h5>Community Share Day</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                            </div>
+                            <div class="announcements-section" id="bottom">
+                                <h5>Updated Privacy Policy</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="trending-box">
+                        <h3>Trending</h3>
+                        <div class="trending-card">
+                            <div class="trending-section" id="mb-10">
+                                <div class="trending-image">
+                                    <div class="circle"></div>
+                                </div>
+                                <div class="trending-handle">@tegan<br><span id="lighter">World Peace Builder</span></span></div>
+                            </div>
+                            <div class="trending-section" id="mb-10">
+                                <div class="trending-image">
+                                    <div class="circle"></div>
+                                </div>
+                                <div class="trending-handle">@morgan<br><span id="lighter">Super Cool Project</span></div>
+                            </div>
+                            <div class="trending-section" id="mb-10">
+                                <div class="trending-image">
+                                    <div class="circle"></div>
+                                </div>
+                                <div class="trending-handle">@kendall<br><span id="lighter">Life Changing App</span></div>
+                            </div>
+                            <div class="trending-section">
+                                <div class="trending-image">
+                                    <div class="circle"></div>
+                                </div>
+                                <div class="trending-handle">@alex<br><span id="lighter">No Traffic Maker</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
